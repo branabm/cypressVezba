@@ -6,7 +6,7 @@ describe ('registration' , ()=> {
         cy.get('li:nth-of-type(2) > .nav-buttons.nav-link').click()
     })
     it('required first-name input field', ()=> {
-        cy.get('#first-name').type().clear()
+        cy.get('#first-name').type('').clear()
         cy.get('#last-name').type('Mila').clear()
         cy.get('#email').type('branatest@test.com').clear()
         cy.get('#password').type('12345678').clear()
