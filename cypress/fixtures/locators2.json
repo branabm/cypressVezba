@@ -1,0 +1,13 @@
+{
+    "login": {
+        "email" : "#email",
+        "password" : "#password",
+        "submit" : "button[type='submit']"
+    },
+    
+    "allGallery" : {
+        "filter" : ".input-group.mb-3 > .form-control",
+        "loadMore" : ".btn.btn-custom",
+        "buttonFilter" : ".input-group-append > .btn.btn-outline-secondary.input-button"
+    }
+}

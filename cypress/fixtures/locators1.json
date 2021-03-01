@@ -1,0 +1,13 @@
+{
+    "login": {
+        "email" : "#email",
+        "password" : "#password",
+        "submit" : "button[type='submit']"
+    },
+    "gallery" : {
+        "title" : "#title",
+        "description" : "#description",
+        "image" : "input[type='url']",
+        "button" : "form > button:nth-of-type(1)"
+    }
+}
