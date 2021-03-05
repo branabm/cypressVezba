@@ -1,0 +1,10 @@
+{
+    "createGallery": {
+        "passwordNotMatch": "The password confirmation does not match.",
+        "checkboxNotChecked": "The terms and conditions must be accepted.",
+        "alert": ".alert",
+        "rgb": "rgb(248, 215, 218",
+        "url":"https://upload.wikimedia.org/wikipedia/commons/f/fd/Macka_iz_Zup%C4%8Da.jpg')"
+         
+    }
+}

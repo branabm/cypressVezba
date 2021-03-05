@@ -2,10 +2,10 @@ const locators = require("../fixtures/locators.json")
 
 describe('login test', ()=> {
    
-    before(() => {
-        cy.visit("https://gallery-app.vivifyideas.com/")
-        cy.get(locators.login.loginPage).click()
-    })
+    //before(() => {
+       // cy.visit("https://gallery-app.vivifyideas.com/")
+        //cy.get(locators.login.loginPage).click()
+  //  })
     
      it("email input is empty", ()=> {
      cy.get(locators.login.email).clear()

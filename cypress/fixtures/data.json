@@ -1,0 +1,36 @@
+{
+    "login" : {
+        "email" : "branatest@test.com",
+        "password" : "12345678",
+        "emailWithoutMonkey" : "branatesttest.com",
+        "passwordLessThan8" : "12345",
+        "wrongEmail" : "branabrana@test.com",
+        "onlyLetterPassword" : "aaaaaaaaaaa" 
+    },
+
+    "register" : {
+        "firstName" : "Brana",
+        "lastName" : "Mila",
+        "email" : "branatest@test.com",
+        "password" : "12345678",
+        "passwordConfirmation" : "12345678",
+        "wrongPassword8" : "11111111",
+        "passwordOnlyLetters" : "aaaaaaaa",
+        "passwordShort" : "1234",
+        "emailWithoutMonkey": "branatesttest.com",
+        "emailWithoutDot" : "branatest@com"
+    },
+
+    "createGallery" : {
+        "title" : "macka",
+        "description" : "desc",
+        
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/f/fd/Macka_iz_Zup%C4%8Da.jpg')",
+        "imageWrongFormat" : "https://upload.wikimedia.org/wikipedia/commons/f/fd/Macka_iz_Zup%C4%8Da.jpg')"
+    },
+
+    "filter" : {
+        "uniqueSearch" : "jedna",
+        "multipleSearch" : "cat"
+    }
+}

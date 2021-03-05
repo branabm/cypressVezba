@@ -1,12 +1,12 @@
 
 const locators = require("../../fixtures/locators.json")
-
+const data = require("../../fixtures/data.json")
 describe('login test', ()=> {
    
-    before(() => {
-        cy.visit("https://gallery-app.vivifyideas.com/")
-        cy.get(locators.login.loginPage).click()
-    })
+    //  before(() => {
+       // cy.visit("https://gallery-app.vivifyideas.com/")
+      //  cy.get(locators.login.loginPage).click()
+    //})
     
      it("login", ()=> {
         cy.get(locators.login.email).type('branaedit@test.com')
