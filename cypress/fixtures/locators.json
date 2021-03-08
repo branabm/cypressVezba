@@ -16,7 +16,7 @@
         "passwordConfirmation":"#password-confirmation",
         "checkbox":"input[type=checkbox]",
         "submit":"button[type='submit']",
-        "navgationRegister" : "a[href='/register']"
+        "navigationRegister" : "a[href='/register']"
 
     },
     "createGallery": {
